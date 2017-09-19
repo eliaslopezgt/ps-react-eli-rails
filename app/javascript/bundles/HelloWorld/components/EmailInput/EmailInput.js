@@ -4,6 +4,7 @@ import TextInput from '../TextInput';
 
 /** Emailinput with integrated label to enforce consistency in layout, error display, label placement, and required field marker. */
 function EmailInput({htmlId, onChange, ...props}) {
+  debugger;
   return (
     <TextInput
       htmlId={htmlId}
